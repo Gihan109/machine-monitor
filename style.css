@@ -1,0 +1,84 @@
+    body {
+        background-color: rgb(2, 1, 61);
+    }
+    h1 {
+        color: rgb(236, 244, 84);
+    }
+    h2 {
+        color: rgb(89, 244, 84);
+        font-size: 20px;
+    }
+    label {
+        color: rgb(77, 210, 240);
+    }
+    span {
+        color: rgb(77, 210, 240);
+    }
+    p {
+        color: rgb(255, 255, 255);
+    }
+    .running {
+        color:lime;
+    }
+    button {
+        font-size: 20px;
+    }
+    .status {
+    color: red;
+    }
+
+    .temperature {
+    color: yellow;
+    }
+
+    .production {
+    color: white;
+    }
+    .motor-speed {
+        color: cyan;
+    }
+    .machine-count {
+        color: orange;
+    }
+    .status-running {
+        color: lime;
+    }
+    .status-stopped {
+        color: red;
+    }
+    .alarm-normal {
+        color: lime;
+    }
+    .alarm-high {
+        color: red;
+    }
+    .alarm-warning {
+        color: yellow;
+    }
+    .alarm-critical {
+        color: red;
+    }
+    .input-error {
+        color: red;
+        font-weight: bold;
+    }
+    .input-invalid {
+        border: 2px solid red;
+        background-color: #330000;
+        color: white;
+    }
+    .info-box {
+    padding: 20px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    }
+    .machine-container {
+        display:grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px; 
+    }
+    @media (max-width: 800px) {
+    .machine-container {
+        grid-template-columns: 1fr;
+    }
+    }
