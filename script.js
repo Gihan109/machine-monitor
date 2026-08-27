@@ -1,4 +1,4 @@
-    let temperature = 68;
+    let temperature = 25;
     let motorSpeed = 0;
     let production = 0;
     let machineRunning = false; 
